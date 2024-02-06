@@ -12,7 +12,13 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+svg[Attributes Style] {
+  stroke: currentcolor;
+  fill: currentcolor;
+  stroke-width: 0;
+  height: 1em;
+  width: 1em;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
